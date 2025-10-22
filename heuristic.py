@@ -1,5 +1,8 @@
 from dataclasses import dataclass, asdict
 from datetime import datetime
+import glob
+import json
+import os
 from typing import Any, Optional, Iterable
 import re
 import fnmatch
@@ -159,3 +162,35 @@ def from_json(obj: Any) -> Heuristic:
         period_start,
         period_end,
     )
+
+
+def load_heuristics_for_agent(file: str) -> list[Heuristic]:
+    """Loads all the heuristics contained in the specified JSON file.
+    Note that it also loads inactive, i.e. no longer in use, heuristics.
+    """
+    todo = []
+    with open(file) as fd:
+        ser_heuristics_list = json.load(fd)
+        if not isinstance(ser_heuristics_list, list):
+            ser_heuristics_list = [ser_heuristics_list]
+            todo.append(ser_heuristics_list)
+    if todo:
+        with open(file, "w") as fd:
+            json.dump(ser_heuristics_list, fd)
+    return [from_json(el) for el in ser_heuristics_list]
+
+
+def load_heuristics(folder: str) -> dict[str, list[Heuristic]]:
+    """Loads all the heuristics for each agent contained in the specified folder.
+
+    Returns:
+        dict[str, list[Heuristic]]: agent_name -> list[heuristic]
+    """
+    dico = {}
+    for file in glob.glob(os.path.join(folder, "*.json")):
+        heuristics_list = [
+            el for el in load_heuristics_for_agent(file)
+        ]
+        agent_name = os.path.basename(file)[:-5]
+        dico[agent_name] = heuristics_list
+    return dico
