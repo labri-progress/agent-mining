@@ -2,6 +2,8 @@
 
 [Tool Website](https://www.claude.com/product/claude-code)
 
+Notable settings: `.claude/settings.json` can include a setting `includeCoAuthoredBy`, which regulates whether Claude co-authors commits (default: `true`). See the [Settings documentation](https://docs.claude.com/en/docs/claude-code/settings#available-settings).
+
 ## Files
 
 - [CLAUDE.md](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28CLAUDE%5C.md%29%24/&type=code)
