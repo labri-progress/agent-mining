@@ -9,7 +9,7 @@ This repository is a community driven initiative to register coding agents infor
 
 ## Structure
 
-- ``agents`` folder contains for each agent two files:
+- The [agents](agents) folder contains for each agent two files:
 
   - a markdown description with links to examples
   - a JSON file enabling easy parsing of the heuristics
