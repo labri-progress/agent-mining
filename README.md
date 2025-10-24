@@ -14,7 +14,7 @@ This repository is a community driven initiative to register coding agents infor
   - a markdown description with links to examples
   - a JSON file enabling easy parsing of the heuristics
 
-- [heuristic.py](heuristics.py) which describes a heuristic as a python object and enables easy loading
+- [heuristic.py](heuristic.py) which describes a heuristic as a python object and enables easy loading
 - [github_query_helper.py](github_query_helper.py) which enables to sample elements matching a given heuristic using the GitHub REST API
 - [projects_with_agent_traces.csv](projects_with_agent_traces.csv) is a CSV file containing a bit more than 10,000 projects that we have identified as using coding agents with our heuristics. The projects may use agents at the file level, the commit level (including pull requests), or be identified since their ``.gitignore'' file includes files from coding agents.
 
