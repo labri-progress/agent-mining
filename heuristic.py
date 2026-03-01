@@ -148,7 +148,10 @@ def from_json(obj: Any) -> Heuristic:
     files = tuple(obj["files"])
     branch_name_prefix = tuple(obj["branch_name_prefix"])
     commit_message_prefix = tuple(obj["commit_message_prefix"])
-    period_start = datetime.now()  # datetime.fromisoformat(obj["period_start"])
+    try:
+        period_start = datetime.fromisoformat(obj["period_start"])
+    except (ValueError, KeyError):
+        period_start = datetime.min  # treat missing/empty as "active from the beginning"
     period_end = None
     if not (obj["period_end"] is None or obj["period_end"] in ["None", "null"]):
         period_end = datetime.fromisoformat(obj["period_end"])
