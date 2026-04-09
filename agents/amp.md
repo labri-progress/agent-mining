@@ -2,6 +2,8 @@
 
 [Tool Website](https://sourcegraph.com/amp)
 
+Comment from https://github.com/labri-progress/agent-mining/issues/3: The, previously correct, heuristic of the Amp tool to use AGENT.md files has changed in May 2025 according to https://ampcode.com/news/AGENT.md . They now use AGENTS.md instead to be compatible with the emerging convention.
+
 ---
 
 ⚠️ **Note:** Everything below this line is auto-generated and will be overwritten when the generation script is run. Only edit content above this line.
