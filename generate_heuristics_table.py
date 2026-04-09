@@ -4,10 +4,17 @@ import sys
 from pathlib import Path
 from urllib.parse import quote
 
-def escape_regex(pattern):
-    """Escape special regex characters."""
-    special_chars = r'.^$*+?{}[]|()\\'
-    return ''.join(f'\\{c}' if c in special_chars else c for c in pattern)
+def escape_for_regex(pattern):
+    """Escape special regex characters and convert glob wildcards to regex.
+    Handles * and ? wildcards from glob patterns."""
+    # First escape regex special characters (but not * and ? yet)
+    special_chars = '.^$+{}[]|()\\'
+    escaped = ''.join(f'\\{c}' if c in special_chars else c for c in pattern)
+    # Then convert glob wildcards to regex
+    escaped = escaped.replace('*', '.*').replace('?', '.')
+    # Finally escape forward slashes
+    escaped = escaped.replace('/', '\\/')
+    return escaped
 
 def tool_name_from_filename(filename):
     """Convert snake_case filename to Title Case tool name."""
@@ -21,8 +28,13 @@ def slugify(name):
 def generate_github_search_urls(pattern, search_type):
     """Generate GitHub search URL for different pattern types."""
     if search_type == 'file':
-        escaped = escape_regex(pattern)
-        query = f'path:/(^|\\/)({escaped})($|/)'
+        escaped = escape_for_regex(pattern)
+        # For directories (ending with /), don't use end anchor
+        if pattern.endswith('/'):
+            query = f'path:/(?:^|\\/)({escaped})/'
+        else:
+            # For files, use end anchor to match only at end of path
+            query = f'path:/(?:^|\\/)({escaped})$/'
         return f'https://github.com/search?q={quote(query)}&type=code'
     
     elif search_type == 'commit':
@@ -104,8 +116,9 @@ def generate_heuristics_table(json_dir, output_file, md_dir="tools"):
         branches = entry.get('branch_name_prefix', [])
         branch_cell = format_cell(branches, 'branch')
         
-        # Labels (not populated yet)
-        label_cell = "-"
+        # Labels
+        labels = entry.get('labels', [])
+        label_cell = format_cell(labels, 'label')
         
         # Add row
         row = f"| {tool_cell} | {file_cell} | {commit_cell} | {branch_cell} | {label_cell} |"

@@ -8,9 +8,9 @@
 
 ## Files
 
-- [.cursor/](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.cursor/%29%28%24%7C/%29&type=code)
-- [.cursorrules](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.cursorrules%29%28%24%7C/%29&type=code)
-- [CURSOR.md](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28CURSOR%5C.md%29%28%24%7C/%29&type=code)
+- [.cursor/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.cursor%5C/%29/&type=code)
+- [.cursorrules](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.cursorrules%29%24/&type=code)
+- [CURSOR.md](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28CURSOR%5C.md%29%24/&type=code)
 
 ## Commits
 

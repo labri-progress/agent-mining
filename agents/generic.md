@@ -8,7 +8,7 @@
 
 ## Files
 
-- [AGENTS.md](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28AGENTS%5C.md%29%28%24%7C/%29&type=code)
+- [AGENTS.md](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28AGENTS%5C.md%29%24/&type=code)
 
 ## Commits
 
@@ -16,7 +16,7 @@
 
 ## Branches
 
-- [ai-generated](https://github.com/search?q=head%3Aai-generated%20type%3Apr&type=issues)
+No heuristic yet
 
 ## Commit Prefixes
 
@@ -24,4 +24,4 @@ No heuristic yet
 
 ## Labels
 
-No heuristic yet
+- [ai-generated](https://github.com/search?q=label%3Aai-generated%20type%3Apr&type=issues)

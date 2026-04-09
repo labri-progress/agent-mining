@@ -8,10 +8,11 @@
       "AGENT.md",
       ".sourcegraph/"
     ],
-    "branch_name_prefix": [
+    "branch_name_prefix": [],
+    "commit_message_prefix": [],
+    "labels": [
       "^amp$"
     ],
-    "commit_message_prefix": [],
     "period_start": "",
     "period_end": null
   }

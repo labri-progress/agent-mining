@@ -6,10 +6,12 @@
     "author_mails": [],
     "files": [],
     "branch_name_prefix": [
-      "open-swe/",
-      "open-swe"
+      "open-swe/"
     ],
     "commit_message_prefix": [],
+    "labels": [
+      "open-swe"
+    ],
     "period_start": "",
     "period_end": null
   }

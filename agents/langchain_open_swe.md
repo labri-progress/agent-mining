@@ -13,7 +13,6 @@
 ## Branches
 
 - [open-swe/](https://github.com/search?q=head%3Aopen-swe/%20type%3Apr&type=issues)
-- [open-swe](https://github.com/search?q=head%3Aopen-swe%20type%3Apr&type=issues)
 
 ## Commit Prefixes
 
@@ -21,4 +20,4 @@ No heuristic yet
 
 ## Labels
 
-No heuristic yet
+- [open-swe](https://github.com/search?q=label%3Aopen-swe%20type%3Apr&type=issues)

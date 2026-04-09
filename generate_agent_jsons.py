@@ -34,6 +34,7 @@ def generate_jsons(output_dir):
         'files': [],
         'branch_name_prefix': [],
         'commit_message_prefix': [],
+        'labels': [],
     })
     
     # Read all CSVs
@@ -64,11 +65,11 @@ def generate_jsons(output_dir):
         pattern = row['pattern']
         tools_data[tool]['branch_name_prefix'].append(pattern)
     
-    # Process labels (treat as branch_name_prefix for generic detection)
+    # Process labels
     for row in labels:
         tool = row['tool']
         pattern = row['pattern']
-        tools_data[tool]['branch_name_prefix'].append(pattern)
+        tools_data[tool]['labels'].append(pattern)
     
     # Process commit prefixes
     for row in commit_prefixes:
@@ -89,6 +90,7 @@ def generate_jsons(output_dir):
             'files': data['files'],
             'branch_name_prefix': data['branch_name_prefix'],
             'commit_message_prefix': data['commit_message_prefix'],
+            'labels': data['labels'],
             'period_start': '',
             'period_end': None
         }]

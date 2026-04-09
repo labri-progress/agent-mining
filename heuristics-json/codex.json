@@ -11,10 +11,12 @@
       ".codex/"
     ],
     "branch_name_prefix": [
-      "codex/",
-      "codex"
+      "codex/"
     ],
     "commit_message_prefix": [],
+    "labels": [
+      "codex"
+    ],
     "period_start": "",
     "period_end": null
   }

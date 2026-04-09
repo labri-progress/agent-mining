@@ -8,9 +8,9 @@
 
 ## Files
 
-- [.windsurf/](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.windsurf/%29%28%24%7C/%29&type=code)
-- [.windsurfrules](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.windsurfrules%29%28%24%7C/%29&type=code)
-- [.codeium/](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.codeium/%29%28%24%7C/%29&type=code)
+- [.windsurf/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.windsurf%5C/%29/&type=code)
+- [.windsurfrules](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.windsurfrules%29%24/&type=code)
+- [.codeium/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.codeium%5C/%29/&type=code)
 
 ## Commits
 

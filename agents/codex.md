@@ -8,7 +8,7 @@
 
 ## Files
 
-- [.codex/](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.codex/%29%28%24%7C/%29&type=code)
+- [.codex/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.codex%5C/%29/&type=code)
 
 ## Commits
 
@@ -19,7 +19,6 @@
 ## Branches
 
 - [codex/](https://github.com/search?q=head%3Acodex/%20type%3Apr&type=issues)
-- [codex](https://github.com/search?q=head%3Acodex%20type%3Apr&type=issues)
 
 ## Commit Prefixes
 
@@ -27,4 +26,4 @@ No heuristic yet
 
 ## Labels
 
-No heuristic yet
+- [codex](https://github.com/search?q=label%3Acodex%20type%3Apr&type=issues)

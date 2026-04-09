@@ -8,9 +8,9 @@
 
 ## Files
 
-- [.pi/](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.pi/%29%28%24%7C/%29&type=code)
-- [.pi/prompts/](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.pi/prompts/%29%28%24%7C/%29&type=code)
-- [.pi/extensions/](https://github.com/search?q=path%3A/%28%5E%7C%5C/%29%28%5C.pi/extensions/%29%28%24%7C/%29&type=code)
+- [.pi/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.pi%5C/%29/&type=code)
+- [.pi/prompts/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.pi%5C/prompts%5C/%29/&type=code)
+- [.pi/extensions/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.pi%5C/extensions%5C/%29/&type=code)
 
 ## Branches
 

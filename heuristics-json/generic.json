@@ -7,10 +7,11 @@
     "files": [
       "AGENTS.md"
     ],
-    "branch_name_prefix": [
+    "branch_name_prefix": [],
+    "commit_message_prefix": [],
+    "labels": [
       "ai-generated"
     ],
-    "commit_message_prefix": [],
     "period_start": "",
     "period_end": null
   }

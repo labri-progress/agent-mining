@@ -5,22 +5,34 @@ import sys
 from pathlib import Path
 from urllib.parse import quote
 
-def escape_regex(pattern):
-    """Escape special regex characters."""
-    special_chars = r'.^$*+?{}[]|()\\'
-    return ''.join(f'\\{c}' if c in special_chars else c for c in pattern)
-
 def tool_name_from_filename(filename):
     """Convert snake_case filename to Title Case tool name."""
     name = filename.replace('.json', '').replace('_', ' ')
     return ' '.join(word.capitalize() for word in name.split())
 
+def escape_for_regex(pattern):
+    """Escape special regex characters and convert glob wildcards to regex.
+    Handles * and ? wildcards from glob patterns."""
+    # First escape regex special characters (but not * and ? yet)
+    special_chars = '.^$+{}[]|()\\'
+    escaped = ''.join(f'\\{c}' if c in special_chars else c for c in pattern)
+    # Then convert glob wildcards to regex
+    escaped = escaped.replace('*', '.*').replace('?', '.')
+    # Finally escape forward slashes
+    escaped = escaped.replace('/', '\\/')
+    return escaped
+
 def generate_github_search_urls(pattern, search_type):
     """Generate GitHub search URL for different pattern types."""
     if search_type == 'file':
-        # Escape regex for file path search
-        escaped = escape_regex(pattern)
-        query = f'path:/(^|\\/)({escaped})($|/)'
+        # Use regex with non-capturing groups for precise path matching
+        escaped = escape_for_regex(pattern)
+        # For directories (ending with /), don't use end anchor
+        if pattern.endswith('/'):
+            query = f'path:/(?:^|\\/)({escaped})/'
+        else:
+            # For files, use end anchor to match only at end of path
+            query = f'path:/(?:^|\\/)({escaped})$/'
         return f'https://github.com/search?q={quote(query)}&type=code'
     
     elif search_type == 'commit':
@@ -150,9 +162,15 @@ def generate_markdown(json_filepath, output_dir, tools_urls):
         md_content += "No heuristic yet\n"
     md_content += "\n"
     
-    # Labels section (not populated yet)
+    # Labels section
+    labels = entry.get('labels', [])
     md_content += "## Labels\n\n"
-    md_content += "No heuristic yet\n"
+    if labels:
+        for pattern in labels:
+            url = generate_github_search_urls(pattern, 'label')
+            md_content += f"- [{pattern}]({url})\n"
+    else:
+        md_content += "No heuristic yet\n"
     
     return md_content
 
