@@ -26,3 +26,10 @@ No heuristic yet
 ## Labels
 
 No heuristic yet
+
+---
+
+⚠️ **Auto-Generated**: The content below the first separator is auto-generated. Be aware that some search patterns may not be fully supported by GitHub's interface:
+- `label:` queries do not support regex syntax (use literal strings only)
+- `path:` queries require specific regex syntax with non-capturing groups
+- Result counts returned by GitHub are approximate

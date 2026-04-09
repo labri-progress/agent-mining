@@ -25,3 +25,10 @@ No heuristic yet
 ## Labels
 
 - [ai-generated](https://github.com/search?q=label%3Aai-generated%20type%3Apr&type=issues)
+
+---
+
+⚠️ **Auto-Generated**: The content below the first separator is auto-generated. Be aware that some search patterns may not be fully supported by GitHub's interface:
+- `label:` queries do not support regex syntax (use literal strings only)
+- `path:` queries require specific regex syntax with non-capturing groups
+- Result counts returned by GitHub are approximate

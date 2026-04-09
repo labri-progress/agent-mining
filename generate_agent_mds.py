@@ -171,6 +171,14 @@ def generate_markdown(json_filepath, output_dir, tools_urls):
             md_content += f"- [{pattern}]({url})\n"
     else:
         md_content += "No heuristic yet\n"
+    md_content += "\n"
+    
+    # Add disclaimer at the bottom
+    md_content += "---\n\n"
+    md_content += "⚠️ **Auto-Generated**: The content below the first separator is auto-generated. Be aware that some search patterns may not be fully supported by GitHub's interface:\n"
+    md_content += "- `label:` queries do not support regex syntax (use literal strings only)\n"
+    md_content += "- `path:` queries require specific regex syntax with non-capturing groups\n"
+    md_content += "- Result counts returned by GitHub are approximate\n"
     
     return md_content
 
