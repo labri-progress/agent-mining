@@ -1,0 +1,25 @@
+[
+  {
+    "author_names": [
+      "Copilot",
+      "copilot-swe-agent"
+    ],
+    "author_mails": [],
+    "files": [
+      "copilot-instructions.md",
+      "copilot_instructions.md",
+      "copilot-instructions/",
+      ".github/instructions/",
+      ".copilot-*.md",
+      ".copilotignore",
+      ".copilot/",
+      ".github/workflows/copilot/"
+    ],
+    "branch_name_prefix": [
+      "copilot/"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "author_names": [
+      "devin-ai-integration"
+    ],
+    "author_mails": [],
+    "files": [
+      ".devin/"
+    ],
+    "branch_name_prefix": [
+      "devin/"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

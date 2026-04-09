@@ -1,0 +1,17 @@
+[
+  {
+    "author_names": [
+      "factory-droid[bot]"
+    ],
+    "author_mails": [],
+    "files": [
+      ".factory/droids/",
+      ".factory/commands/",
+      ".factory/docs/"
+    ],
+    "branch_name_prefix": [],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

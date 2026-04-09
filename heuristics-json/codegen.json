@@ -1,0 +1,15 @@
+[
+  {
+    "author_names": [
+      "codegen-sh"
+    ],
+    "author_mails": [],
+    "files": [],
+    "branch_name_prefix": [
+      "codegen-bot/"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

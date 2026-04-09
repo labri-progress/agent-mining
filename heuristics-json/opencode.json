@@ -1,0 +1,21 @@
+[
+  {
+    "author_names": [
+      "opencode-agent"
+    ],
+    "author_mails": [
+      "noreply@opencode.ai"
+    ],
+    "files": [
+      ".opencode/",
+      ".opencode.json",
+      "opencode.json"
+    ],
+    "branch_name_prefix": [
+      "opencode/"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "author_names": [
+      "openhands-agent"
+    ],
+    "author_mails": [
+      "openhands@all-hands.dev"
+    ],
+    "files": [
+      ".openhands/",
+      ".openhands_instructions"
+    ],
+    "branch_name_prefix": [
+      "openhands/"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

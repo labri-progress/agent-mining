@@ -1,0 +1,21 @@
+[
+  {
+    "author_names": [
+      "cursor"
+    ],
+    "author_mails": [
+      "cursoragent@cursor.com"
+    ],
+    "files": [
+      ".cursor/",
+      ".cursorrules",
+      "CURSOR.md"
+    ],
+    "branch_name_prefix": [
+      "cursor/"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

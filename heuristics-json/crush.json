@@ -1,0 +1,16 @@
+[
+  {
+    "author_names": [],
+    "author_mails": [
+      "crush@charm.land"
+    ],
+    "files": [
+      ".crush/",
+      "CRUSH.md"
+    ],
+    "branch_name_prefix": [],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

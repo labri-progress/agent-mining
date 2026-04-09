@@ -1,0 +1,16 @@
+[
+  {
+    "author_names": [],
+    "author_mails": [
+      "verdent@verdent.ai",
+      "noreply@verdent.ai"
+    ],
+    "files": [
+      ".verdent/"
+    ],
+    "branch_name_prefix": [],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

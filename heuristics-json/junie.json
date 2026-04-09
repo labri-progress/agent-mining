@@ -1,0 +1,20 @@
+[
+  {
+    "author_names": [
+      "junie",
+      "jetbrains-junie"
+    ],
+    "author_mails": [],
+    "files": [
+      ".junie/",
+      ".jetbrains/instructions.md",
+      ".junieignore"
+    ],
+    "branch_name_prefix": [
+      "jetbrains_junie"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

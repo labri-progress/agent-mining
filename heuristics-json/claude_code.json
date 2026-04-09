@@ -1,0 +1,38 @@
+[
+  {
+    "author_names": [
+      "Claude",
+      "Claude Opus 4.5",
+      "Claude Opus 4.6",
+      "Claude Haiku 4.5",
+      "Claude Sonnet 4.5",
+      "Claude (glm-4.7)",
+      "Claude (GLM-4.7)",
+      "Claude (glm-4.6)",
+      "Claude (GLM-4.6)",
+      "Claude (kimi-for-coding)",
+      "Claude (kimi-k2.5)",
+      "Claude (MiniMax-M2.1)"
+    ],
+    "author_mails": [
+      "noreply@anthropic.com",
+      "claude@anthropic.com",
+      "assistant@anthropic.com"
+    ],
+    "files": [
+      "CLAUDE.md",
+      ".claude/",
+      ".anthropic/",
+      ".claudeignore",
+      ".github/workflows/claude"
+    ],
+    "branch_name_prefix": [
+      "claudecode/",
+      "claudecode/",
+      "claude/"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "author_names": [
+      "Codex (gpt-5.2-codex)"
+    ],
+    "author_mails": [
+      "codex@openai.com",
+      "codex@openai.com"
+    ],
+    "files": [
+      ".codex/"
+    ],
+    "branch_name_prefix": [
+      "codex/",
+      "codex"
+    ],
+    "commit_message_prefix": [],
+    "period_start": "",
+    "period_end": null
+  }
+]
