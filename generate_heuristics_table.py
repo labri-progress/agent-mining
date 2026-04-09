@@ -130,6 +130,13 @@ def generate_heuristics_table(json_dir, output_file, md_dir="tools"):
         f.write("|------|------|--------|----------|--------|\n")
         for row in rows:
             f.write(row + "\n")
+        
+        # Add note at the bottom
+        f.write("\n---\n\n")
+        f.write("⚠️ **Auto-Generated**: This table is generated automatically. Be aware that some search patterns may not be fully supported by GitHub's interface:\n")
+        f.write("- `label:` queries do not support regex syntax (use literal strings only)\n")
+        f.write("- `path:` queries require specific regex syntax with non-capturing groups\n")
+        f.write("- Result counts returned by GitHub are approximate\n")
     
     print(f"✓ Generated heuristics table: {output_file}")
     print(f"  Total tools: {len(rows)}")

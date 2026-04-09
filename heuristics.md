@@ -63,3 +63,10 @@
 | [Verdent](agents/verdent.md) | [.verdent/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.verdent%5C/%29/&type=code) | [verdent@verdent.ai](https://github.com/search?q=Co-authored-by%3A%22verdent%40verdent.ai%22&type=commits), [auth](https://github.com/search?q=author%3A%22verdent%40verdent.ai%22&type=commits), [noreply@verdent.ai](https://github.com/search?q=Co-authored-by%3A%22noreply%40verdent.ai%22&type=commits), [auth](https://github.com/search?q=author%3A%22noreply%40verdent.ai%22&type=commits) | - | - |
 | [Warp](agents/warp.md) | [WARP.md](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28WARP%5C.md%29%24/&type=code), [.warp/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.warp%5C/%29/&type=code) | [noreply@warp.dev](https://github.com/search?q=Co-authored-by%3A%22noreply%40warp.dev%22&type=commits), [auth](https://github.com/search?q=author%3A%22noreply%40warp.dev%22&type=commits) | - | - |
 | [Windsurf](agents/windsurf.md) | [.windsurf/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.windsurf%5C/%29/&type=code), [.windsurfrules](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.windsurfrules%29%24/&type=code), [.codeium/](https://github.com/search?q=path%3A/%28%3F%3A%5E%7C%5C/%29%28%5C.codeium%5C/%29/&type=code) | [windsurf-bot](https://github.com/search?q=Co-authored-by%3A%22windsurf-bot%22&type=commits), [auth](https://github.com/search?q=author%3A%22windsurf-bot%22&type=commits), [cascade@windsurf.ai](https://github.com/search?q=Co-authored-by%3A%22cascade%40windsurf.ai%22&type=commits), [auth](https://github.com/search?q=author%3A%22cascade%40windsurf.ai%22&type=commits) | [windsurf-bot/](https://github.com/search?q=head%3Awindsurf-bot/%20type%3Apr&type=pullrequests) | - |
+
+---
+
+⚠️ **Auto-Generated**: This table is generated automatically. Be aware that some search patterns may not be fully supported by GitHub's interface:
+- `label:` queries do not support regex syntax (use literal strings only)
+- `path:` queries require specific regex syntax with non-capturing groups
+- Result counts returned by GitHub are approximate
