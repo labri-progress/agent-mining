@@ -1,0 +1,5 @@
+pattern,tool,start_date,end_date
+ai-generated,Generic,,
+codex,Codex,,
+open-swe,Langchain Open SWE,,
+^amp$,Amp,,

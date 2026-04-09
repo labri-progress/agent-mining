@@ -1,0 +1,85 @@
+pattern,tool
+dependabot\[bot\],dependabot
+github-actions\[bot\],github actions
+gh-action-bump-version@users.noreply.github.com,github actions
+microsoft-github-policy-service\[bot\],microsoft
+renovate\[bot\],renovate
+github-actions\[bot\],github actions
+Microsoft Open Source,Bot
+omahs,Bot
+snyk-bot,snyk
+Renovate Bot,renovate
+microsoft-github-operations\[bot\],microsoft
+msftbot\[bot\],microsoft
+Microsoft GitHub User,microsoft
+dotnet-maestro\[bot\],dotnet
+dotnet bot,dotnet
+dotnet-maestro\[bot\],dotnet
+dotnet-policy-service\[bot\],dotnet
+Azure SDK Bot,azure
+dotnet-bot,dotnet
+GitHub Action,github actions
+dotnet-maestro-bot,dotnet
+DotNet Bot,dotnet
+dotnet-maestro,dotnet
+github-actions,github actions
+GitStart,Bot
+ImgBotApp,Bot
+github-action-benchmark,Bot
+integration-test@airbyte.io,Bot
+ASP.NET CI,Bot
+PyTorch MergeBot,Bot
+Mattermost Build,Bot
+Fluent UI Build,Bot
+Crowdin Bot,Bot
+repo-visualizer,Bot
+dotnet-bot,Bot
+getsentry-bot,Bot
+QUIC Dev Bot,Bot
+xerial-bot,Bot
+Azure SDK for Python bot,Bot
+stainless-app\[bot\],Bot
+Travis CI User,Bot
+octo-sts\[bot\],Bot
+kodiakhq\[bot\],Bot
+Calypso Bot,Bot
+pytorchbot,Bot
+QUIC Dev\[bot\],Bot
+Loc Bot,Bot
+GitHub Actions,Bot
+UI Fabric Build Bot,Bot
+Azure CLI Bot,Bot
+semantic-release-bot,Bot
+Turbobot,Bot
+getsantry\[bot\],Bot
+dependabot-preview\[bot\],Bot
+PyTorch UpdateBot,Bot
+microsoft-github-policy-service\[bot\],Bot
+bott@conexco.com,Bot
+release-please\[bot\],Bot
+GitHub Actions Bot,Bot
+Docusaurus bot,Bot
+vellum-automation\[bot\],Bot
+unified-ci-app\[bot\],Bot
+Calcom Bot,Bot
+scala-steward-wvlet\[bot\],Bot
+mergify\[bot\],Bot
+WhiteSource Renovate,Bot
+penify-dev\[bot\],Bot
+enzyme-ci-bot\[bot\],Bot
+NuGet Team Bot,Bot
+support@kodexa.com,Bot
+Bff Bot,Bot
+Facebook Community Bot,Bot
+release-automation-rllyy97@microsoft.com,Bot
+Mend Renovate,Bot
+fern-api\[bot\],Bot
+GitHub Design Systems Bot,Bot
+primer\[bot\],Bot
+pytorchbot,Bot
+SXS Bot,Bot
+gcf-owl-bot\[bot\],Bot
+Sentry Bot,Bot
+Release Bot,Bot
+ASP.NET Push Bot,Bot
+sentry-autofix\[bot\],Bot
