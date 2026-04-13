@@ -5,10 +5,10 @@ This repository is a community driven initiative to register coding agents infor
 - traces (files, branch names, labels, co-authors,...) that can be used to detect agent use;
 - heuristics stored as JSON for automatic parsing and use;
 - markdown documentation with links to GitHub examples;
-- a sample of repositories with commits, files or branches with agent use;
+- a sample of (~ 10,000) repositories with commits, files or branches with agent use;
 - scripts to quickly detect agent use using these heuristics and to sample elements using the GitHub REST API.
 
-For a more complete example of how these heuristics can be used, refer to the [code from the Agent mining study](https://github.com/labri-progress/agent-impact/). 
+For a more complete example of how these heuristics can be used, refer to the [code from the Agent adoption study](https://github.com/labri-progress/agent-impact/). 
 
 ## Workflow
 
@@ -43,5 +43,5 @@ Please open a pull request and we will try to get back to you as soon as possibl
 
 ## Citing
 
-You can cite our MSR 2026 paper: "Promises, Perils, and (Timely) Heuristics for Mining Coding Agent Activity" ([Preprint](https://arxiv.org/abs/2601.18345)). The Agent mining study is the paper "Agentic Much? Adoption of Coding Agents on GitHub" ([Preprint](https://arxiv.org/abs/2601.18341)).
+You can cite our MSR 2026 paper: "Promises, Perils, and (Timely) Heuristics for Mining Coding Agent Activity" ([Preprint](https://arxiv.org/abs/2601.18345)). The Agent adoption study is the paper "Agentic Much? Adoption of Coding Agents on GitHub" ([Preprint](https://arxiv.org/abs/2601.18341)).
  
