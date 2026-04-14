@@ -5,7 +5,7 @@
 Notable settings: 
 - `.claude/settings.json` can include a setting `includeCoAuthoredBy`, which regulates whether Claude co-authors commits (default: `true`). See the [Settings documentation](https://docs.claude.com/en/docs/claude-code/settings#available-settings).
 - the `model` settings can override the default model that Claude Code uses.
-- In research preview: [Claude Code routines](https://code.claude.com/docs/en/routines).
+- In research preview: [Claude Code routines](https://code.claude.com/docs/en/routines). It seems to be available in the cloud, unclear if it's visible in the repositories.
 
 ---
 
