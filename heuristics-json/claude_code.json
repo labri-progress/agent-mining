@@ -28,7 +28,6 @@
     ],
     "branch_name_prefix": [
       "claudecode/",
-      "claudecode/",
       "claude/"
     ],
     "commit_message_prefix": [],

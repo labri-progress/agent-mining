@@ -41,7 +41,6 @@ Notable settings:
 ## Branches
 
 - [claudecode/](https://github.com/search?q=head%3Aclaudecode/%20type%3Apr&type=issues)
-- [claudecode/](https://github.com/search?q=head%3Aclaudecode/%20type%3Apr&type=issues)
 - [claude/](https://github.com/search?q=head%3Aclaude/%20type%3Apr&type=issues)
 
 ## Commit Prefixes
